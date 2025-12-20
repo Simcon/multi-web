@@ -21,7 +21,7 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'Multi Framework. Idea to App Store in Under an Hour',
 	siteDescription:
 		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
 	ogImage: '/og.jpg',
@@ -31,6 +31,6 @@ export const configData: Config = {
 	},
 	canonical: true,
 	noindex: false,
-	mode: 'auto',
+	mode: 'light',
 	scrollAnimations: true
 }

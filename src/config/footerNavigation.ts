@@ -35,77 +35,77 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'Foxi.',
+		title: 'Multi Framework',
 		aboutText:
-			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
+			'Multi Framework is a single, clean architecture codebase targeting Web, iOS, Android, macOS, and Windows, backed by a fully automated deployment pipeline. Write once, deploy everywhere automatically.',
 		logo: {
 			src: '/logo.svg',
-			alt: 'The tailwind astro theme',
-			text: 'Foxi.'
+			alt: 'Multi Framework',
+			text: 'Multi Framework'
 		}
 	},
 	footerColumns: [
-		{
-			category: 'Product',
-			subCategories: [
-				{
-					subCategory: 'Features',
-					subCategoryLink: '/features'
-				},
-				{
-					subCategory: 'FAQ',
-					subCategoryLink: '/faq'
-				},
-				{
-					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
-				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
-				{
-					subCategory: 'Terms',
-					subCategoryLink: '/terms'
-				}
-			]
-		},
-		{
-			category: 'About us',
-			subCategories: [
-				{
-					subCategory: 'About us',
-					subCategoryLink: '/'
-				},
-				{
-					subCategory: 'News',
-					subCategoryLink: '/blog'
-				},
-				{
-					subCategory: 'Careers',
-					subCategoryLink: '/blog'
-				}
-			]
-		},
-		{
-			category: 'Get in touch',
-			subCategories: [
-				{
-					subCategory: 'Contact',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Support',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Join us',
-					subCategoryLink: '/contact'
-				}
-			]
-		}
+		// {
+		// 	category: 'Product',
+		// 	subCategories: [
+		// 		{
+		// 			subCategory: 'Features',
+		// 			subCategoryLink: '/features'
+		// 		},
+		// 		{
+		// 			subCategory: 'FAQ',
+		// 			subCategoryLink: '/faq'
+		// 		},
+		// 		{
+		// 			subCategory: 'Pricing',
+		// 			subCategoryLink: '/pricing'
+		// 		},
+		// 		{
+		// 			subCategory: 'Changelog',
+		// 			subCategoryLink: '/changelog'
+		// 		},
+		// 		{
+		// 			subCategory: 'Terms',
+		// 			subCategoryLink: '/terms'
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	category: 'About us',
+		// 	subCategories: [
+		// 		{
+		// 			subCategory: 'About us',
+		// 			subCategoryLink: '/'
+		// 		},
+		// 		{
+		// 			subCategory: 'News',
+		// 			subCategoryLink: '/blog'
+		// 		},
+		// 		{
+		// 			subCategory: 'Careers',
+		// 			subCategoryLink: '/blog'
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	category: 'Get in touch',
+		// 	subCategories: [
+		// 		{
+		// 			subCategory: 'Contact',
+		// 			subCategoryLink: '/contact'
+		// 		},
+		// 		{
+		// 			subCategory: 'Support',
+		// 			subCategoryLink: '/contact'
+		// 		},
+		// 		{
+		// 			subCategory: 'Join us',
+		// 			subCategoryLink: '/contact'
+		// 		}
+		// 	]
+		// }
 	],
 	subFooter: {
-		copywriteText: '© Foxi 2024.'
+		copywriteText: '© Simply Consulting Ltd 2026.'
 	}
 }

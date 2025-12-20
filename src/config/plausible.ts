@@ -1,0 +1,1 @@
+export const plausibleDomain = 'multiframework.com'

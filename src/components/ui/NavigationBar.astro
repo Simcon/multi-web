@@ -15,7 +15,7 @@
 // - UI
 import { Icon } from 'astro-icon/components'
 import Button from './Button.astro'
-import Switcher from './ModeSwitcher.astro'
+// import Switcher from './ModeSwitcher.astro'
 
 // Data
 import { navigationBarData } from '../../config/navigationBar'
@@ -40,7 +40,7 @@ const savedNavActions = navActions.map((action) => ({
 		<nav aria-label="main navigation" role="navigation" class="header__nav">
 			<!-- Logo -->
 			<a href="/" class="header__logo">
-				<img src={logo.src} alt={logo.alt} width="48" height="48" />
+				<!-- <img src={logo.src} alt={logo.alt} width="48" height="48" /> -->
 				<span>{logo.text}</span>
 			</a>
 
@@ -101,7 +101,7 @@ const savedNavActions = navActions.map((action) => ({
 			</ul>
 
 			<!-- Theme Switcher -->
-			<Switcher />
+			<!-- <Switcher /> -->
 
 			<!-- Navigation action buttons -->
 			<div class="header__actions">

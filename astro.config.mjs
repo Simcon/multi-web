@@ -7,11 +7,15 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://foxi.netlify.app/",
+  site: "https://multiframework.com/",
   integrations: [
     tailwind(),
     icon(),
-    sitemap(),
+    sitemap({
+      filter: (page) =>
+        page === "https://multiframework.com/" //||
+        //page === "https://multiframework.com/pricing/"
+    }),
     partytown({
       config: {
         forward: ["dataLayer.push"],
