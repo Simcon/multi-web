@@ -39,8 +39,8 @@ export const footerNavigationData: FooterData = {
 		aboutText:
 			'Multi Framework is a single, clean architecture codebase targeting Web, iOS, Android, macOS, and Windows, backed by a fully automated deployment pipeline. Write once, deploy everywhere automatically.',
 		logo: {
-			src: '/logo.svg',
-			alt: 'Multi Framework',
+			src: '/logo.png',
+			alt: 'Idea to App Store in Under an Hour',
 			text: 'Multi Framework'
 		}
 	},

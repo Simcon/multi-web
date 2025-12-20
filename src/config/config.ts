@@ -23,11 +23,11 @@ export interface Config {
 export const configData: Config = {
 	siteTitle: 'Multi Framework. Idea to App Store in Under an Hour',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'Multi Framework is a single, clean architecture codebase targeting Web, iOS, Android, macOS, and Windows, backed by a fully automated deployment pipeline. Write once, deploy everywhere automatically.',
 	ogImage: '/og.jpg',
 	logo: {
-		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		src: '/logo.png',
+		alt: 'Idea to App Store in Under an Hour'
 	},
 	canonical: true,
 	noindex: false,
