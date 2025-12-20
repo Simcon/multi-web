@@ -100,5 +100,71 @@
 		"reply": "Yes, Foxi is available on both iOS and Android, allowing you to manage your tasks and projects on the go. Download the app from the App Store or Google Play to stay productive anywhere.",
 		"category": "features",
 		"open": false
-	}
+	},
+  {
+    "question": "What is Multi Framework?",
+    "reply": "Multi Framework is a best-practice starter framework that lets you build once and ship to Web, iOS, Android, macOS, and Windows from a single, clean codebase.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "Who is Multi Framework for?",
+    "reply": "It’s built for developers, founders, and indie makers who want to launch real products fast without spending weeks on setup, tooling, and platform-specific work.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "Can I really create an app and publish it in under an hour?",
+    "reply": "Yes. You can build, package, and prepare an app for release in under an hour. The only potential delay is setting up Apple App Store and Google Play Store accounts if you don’t already have them.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "What platforms does Multi Framework support?",
+    "reply": "Out of the box, you can target Web, iOS, Android, macOS, and Windows.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "How is Multi Framework different from other frameworks?",
+    "reply": "Multi Framework focuses on clean architecture, proven best practices, and a fully automated build and release pipeline, rather than just UI components or basic starter templates.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "I already use React Native or Flutter. Is Multi Framework a good fit for me?",
+    "reply": "Maybe. React, Vue, and Flutter are excellent tools, and you may be best off sticking with them. Multi Framework is ideal if you want a single codebase for all platforms plus an end-to-end automated deployment pipeline to speed up development and publishing.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "What exactly is Multi Framework based on?",
+    "reply": "Multi Framework is built on .NET MAUI (Microsoft’s multi-platform app UI) and extended to support modern web technologies like HTML, CSS, and JavaScript, while still delivering native platform capabilities such as access to the camera, contacts, and storage. It includes cross-platform user registration and authentication boilerplate, follows Clean Architecture best practices, and provides multiple real-world code samples to help accelerate your app development.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "Do I need to be an expert developer?",
+    "reply": "Not really. Some experience with HTML, CSS, and JavaScript is required, as these are the underlying technologies. The framework includes multiple samples and plenty of ready-to-use code you can copy, adapt, and make your own.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "What kind of instructions and tutorials are included?",
+    "reply": "Multi Framework comes with full walkthrough videos and clear documentation showing how to build, run, and deploy apps to all supported platforms. It also includes many practical code samples throughout the project, along with helpful comments and README files.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "When does Multi Framework launch?",
+    "reply": "The first release is planned for January 2026. Early-access subscribers will be notified as soon as it’s available.",
+    "category": "multi_1",
+    "open": false
+  },
+  {
+    "question": "What do early-access users get?",
+    "reply": "Early-access users get first access to the framework and a 50% early-access discount at launch.",
+    "category": "multi_1",
+    "open": false
+  }
 ]

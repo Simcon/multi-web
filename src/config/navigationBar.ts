@@ -39,8 +39,9 @@ export const navigationBarData: NavData = {
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },
-		// { name: 'Pricing', link: '/pricing' },
-		// { name: 'Features', link: '/features' },
+		//{ name: 'Pricing', link: '/pricing' },
+		{ name: 'Features', link: '/features' },
+		{ name: 'Faq', link: '/faq' },
 		// {
 		// 	name: 'Resources',
 		// 	link: '#',
@@ -51,9 +52,8 @@ export const navigationBarData: NavData = {
 		// 		{ name: 'Terms', link: '/terms' }
 		// 	]
 		// },
-		{ name: '50% early-access discount', link: 'https://tally.so/r/Gx6VYz' }
 	],
 	navActions: [
-		// { name: 'Try it now', link: '/', style: 'primary', size: 'lg' }
+		{ name: '50% early-access discount', link: 'https://tally.so/r/Gx6VYz', style: 'primary', size: 'lg' }
 	]
 }
