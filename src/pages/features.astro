@@ -10,54 +10,59 @@ import CTA from '../components/blocks/CTA/BasicDark.astro'
 // Data
 import featuresData from '../data/json-files/featuresData.json'
 // - Feature Categories
-const featuresAnalytics = featuresData.filter((feature) => feature.category === 'Analytics')
-const featuresProductivity = featuresData.filter((feature) => feature.category === 'Productivity')
-const featuresSecurity = featuresData.filter((feature) => feature.category === 'Security')
-const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
-const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
+// const featuresAnalytics = featuresData.filter((feature) => feature.category === 'Analytics')
+// const featuresProductivity = featuresData.filter((feature) => feature.category === 'Productivity')
+// const featuresSecurity = featuresData.filter((feature) => feature.category === 'Security')
+// const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
+// const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
+const featuresMulti1 = featuresData.filter((feature) => feature.category === 'Multi1')
+const featuresMulti2 = featuresData.filter((feature) => feature.category === 'Multi2')
+const featuresMulti3 = featuresData.filter((feature) => feature.category === 'Multi3')
+const featuresMulti4 = featuresData.filter((feature) => feature.category === 'Multi4')
+const featuresMulti5 = featuresData.filter((feature) => feature.category === 'Multi5')
 
 // Content
 // - SEO
 const SEO = {
-	title: 'Foxi | Features to Boost Productivity & Security',
+	title: 'Multi Framework | Idea to App Store in Under an Hour',
 	description:
-		"Explore Foxi's powerful features designed to enhance productivity, ensure top-notch security, and integrate seamlessly with your favorite tools. Join thousands of satisfied users and transform your workflow with Foxi today!"
+		'Multi is the fastest way to turn your app idea into a real, deployable application. Build, test, and launch in under 60 minutes with our all-in-one platform.',
 }
 // - Page Header
 const header = {
 	title: 'Why you and your team will <strong>love</strong> <span style="white-space: nowrap;">Multi Framework</span>.',
-	text: 'Streamline your tasks, protect your data, and enjoy working with our tools!'
+	text: 'One codebase, familiar tech, proven architecture — with simple multiplatform targeting and deployment built in.'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<Feature
-		title="Insightful Analytics"
-		text="Delve into your data with precision and uncover actionable insights."
-		data={featuresAnalytics}
+		title="Write Once, Deploy Everywhere"
+		text="Target multiple platforms with a single codebase, saving time and effort in your development process."
+		data={featuresMulti1}
 	/>
 	<Feature
-		title="Efficiency Unleashed"
-		text="Streamline tasks and focus on what matters with tools designed to boost your productivity."
-		data={featuresSecurity}
+		title="Build Faster, Work Smarter"
+		text="Ship more with less effort using proven patterns, familiar tools, and a startup-ready foundation."
+		data={featuresMulti2}
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="Ultimate Data Protection"
-		text="Keep your data safe with top-notch security measures and real-time threat detection."
-		data={featuresProductivity}
+		title="Build Native with Web Tech"
+		text="Build natively for all platforms using the web technologies you already know."
+		data={featuresMulti3}
 	/>
 	<Feature
-		title="Seamless Connectivity"
-		text="Effortlessly connect your favorite apps and automate workflows for a smoother workday."
-		data={featuresIntegrations}
+		title="Deploy with Confidence"
+		text="Push to production knowing your builds, releases, and rollbacks are predictable and repeatable."
+		data={featuresMulti4}
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="24/7 Expert Help"
-		text="Our friendly support team is always here to assist you with any questions or issues."
-		data={featuresSupport}
+		title="Learn as You Build"
+		text="Pick things up as you go with real examples, clear guidance, and practical walkthroughs."
+		data={featuresMulti5}
 	/>
 	<CTA />
 </Layout>

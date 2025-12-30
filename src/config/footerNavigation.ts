@@ -52,10 +52,10 @@ export const footerNavigationData: FooterData = {
 					subCategory: 'Home',
 					subCategoryLink: '/'
 				},
-				// {
-				// 	subCategory: 'Features',
-				// 	subCategoryLink: '/features'
-				// },
+				{
+					subCategory: 'Features',
+					subCategoryLink: '/features'
+				},
 				{
 					subCategory: 'FAQ',
 					subCategoryLink: '/faq'

@@ -226,5 +226,209 @@
 		"icon": "key",
 		"description": "Integrate multiple payment gateways to offer diverse payment options. Ensure secure transactions and smooth payment processing for users.",
 		"category": "Integrations"
+	},
+	{
+		"title": "One Codebase",
+		"icon": "key",
+		"description": "Build and maintain a single shared codebase that targets web, iOS, Android, macOS, and Windows, eliminating rewrites and duplicated effort.",
+		"category": "Multi1"
+	},
+	{
+		"title": "All Devices",
+		"icon": "key",
+		"description": "Produce real iOS and Android apps from the same project, without spinning up separate mobile-only codebases.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Desktop Apps",
+		"icon": "key",
+		"description": "Package and ship native-style desktop apps for Windows and macOS using the same underlying architecture.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Web First",
+		"icon": "key",
+		"description": "The web is treated as a first-class platform, not a reduced or secondary output, so your app works great in the browser from day one.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Shared Logic",
+		"icon": "key",
+		"description": "Core business rules and application logic live in one place and are reused consistently across every platform.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Adaptive UI",
+		"icon": "key",
+		"description": "User interfaces automatically adapt to different screen sizes, form factors, and input methods.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Consistent Behaviour",
+		"icon": "key",
+		"description": "Your app behaves predictably across platforms, reducing bugs and platform-specific surprises.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Startup Template",
+		"icon": "key",
+		"description": "A production-ready startup template designed for real products, not tutorials or demo apps.",
+		"category": "Multi2"
+	},
+	{
+		"title": "Clean Architecture",
+		"icon": "key",
+		"description": "Based on Clean Architecture principles that keep domain and business logic isolated from UI and infrastructure concerns.",
+		"category": "Multi2"
+	},
+	{
+		"title": "Domain-Driven Design",
+		"icon": "key",
+		"description": "Uses DDD patterns in a practical, lightweight way that improves clarity without adding unnecessary complexity.",
+		"category": "Multi2"
+	},
+	{
+		"title": "CQRS Built-in",
+		"icon": "key",
+		"description": "Command and query responsibilities are separated where it makes sense, improving readability and long-term maintainability.",
+		"category": "Multi2"
+	},
+	{
+		"title": "Sample Apps",
+		"icon": "key",
+		"description": "Multiple working sample applications you can study, copy, and adapt directly into your own product.",
+		"category": "Multi2"
+	},
+	{
+		"title": "Sensible Defaults",
+		"icon": "key",
+		"description": "Opinionated architectural and structural decisions are made for you to avoid early mistakes.",
+		"category": "Multi2"
+	},
+	{
+		"title": "Low Boilerplate",
+		"icon": "key",
+		"description": "Minimal setup and ceremony so your code delivers immediate product value.",
+		"category": "Multi2"
+	},
+	{
+		"title": "Web Familiarity",
+		"icon": "key",
+		"description": "The overall development experience feels like building a modern web application, not learning a new ecosystem.",
+		"category": "Multi3"
+	},
+	{
+		"title": "Easy Onboarding",
+		"icon": "key",
+		"description": "Any competent web developer can understand the structure and start contributing quickly.",
+		"category": "Multi3"
+	},
+	{
+		"title": "HTML",
+		"icon": "key",
+		"description": "User interfaces are built with standard HTML, keeping things transparent and easy to reason about.",
+		"category": "Multi3"
+	},
+	{
+		"title": "CSS",
+		"icon": "key",
+		"description": "Styling is done with simple CSS, so you can use familiar techniques and existing knowledge.",
+		"category": "Multi3"
+	},
+	{
+		"title": "JavaScript",
+		"icon": "key",
+		"description": "Interactivity and behaviour are written in JavaScript, exactly where web developers expect them.",
+		"category": "Multi3"
+	},
+	{
+		"title": "C#",
+		"icon": "key",
+		"description": "Build with C#, a modern, expressive language with great tooling, strong typing, and the confidence to scale without fragile code.",
+		"category": "Multi3"
+	},
+	{
+		"title": "Hot Reload",
+		"icon": "key",
+		"description": "See your changes immediately with Hot Reload across all form factors.",
+		"category": "Multi3"
+	},
+	{
+		"title": "GitHub Actions",
+		"icon": "key",
+		"description": "Build and deployment pipelines are already set up for GitHub Actions, saving you time and avoiding fragile scripts.",
+		"category": "Multi4"
+	},
+	{
+		"title": "One Command",
+		"icon": "key",
+		"description": "Common deployment tasks are handled with simple, repeatable commands.",
+		"category": "Multi4"
+	},
+	{
+		"title": "Environment Aware",
+		"icon": "key",
+		"description": "Configuration cleanly separates development, staging, and production environments.",
+		"category": "Multi4"
+	},
+	{
+		"title": "Repeatable Builds",
+		"icon": "key",
+		"description": "Builds are deterministic, so results are consistent across machines and time.",
+		"category": "Multi4"
+	},
+	{
+		"title": "Release Ready",
+		"icon": "key",
+		"description": "Versioning and release workflows are built into the development process.",
+		"category": "Multi4"
+	},
+	{
+		"title": "CI/CD Ready",
+		"icon": "key",
+		"description": "Designed to plug straight into existing CI/CD systems with minimal setup.",
+		"category": "Multi4"
+	},
+	{
+		"title": "Walkthrough Videos",
+		"icon": "key",
+		"description": "Guided videos walk through real features and show how the pieces fit together.",
+		"category": "Multi5"
+	},
+	{
+		"title": "Clear Docs",
+		"icon": "key",
+		"description": "Documentation focuses on practical outcomes and real use cases, not theory.",
+		"category": "Multi5"
+	},
+	{
+		"title": "Inline Comments",
+		"icon": "key",
+		"description": "Code includes helpful comments explaining the reasoning behind key decisions.",
+		"category": "Multi5"
+	},
+	{
+		"title": "Real Examples",
+		"icon": "key",
+		"description": "Clean Architecture, DDD, and CQRS are demonstrated in realistic, production-style scenarios.",
+		"category": "Multi5"
+	},
+	{
+		"title": "Progressive Depth",
+		"icon": "key",
+		"description": "Start with simple concepts and naturally progress to more advanced patterns as needed.",
+		"category": "HIDDEN"
+	},
+	{
+		"title": "Copy Friendly",
+		"icon": "key",
+		"description": "Patterns and examples are designed to be copied directly into your own features.",
+		"category": "Multi5"
+	},
+	{
+		"title": "Founder Focused",
+		"icon": "key",
+		"description": "Built for developers who want to ship and grow products, not study frameworks.",
+		"category": "Multi5"
 	}
 ]
