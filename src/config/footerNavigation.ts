@@ -45,31 +45,35 @@ export const footerNavigationData: FooterData = {
 		}
 	},
 	footerColumns: [
-		// {
-		// 	category: 'Product',
-		// 	subCategories: [
-		// 		{
-		// 			subCategory: 'Features',
-		// 			subCategoryLink: '/features'
-		// 		},
-		// 		{
-		// 			subCategory: 'FAQ',
-		// 			subCategoryLink: '/faq'
-		// 		},
-		// 		{
-		// 			subCategory: 'Pricing',
-		// 			subCategoryLink: '/pricing'
-		// 		},
-		// 		{
-		// 			subCategory: 'Changelog',
-		// 			subCategoryLink: '/changelog'
-		// 		},
-		// 		{
-		// 			subCategory: 'Terms',
-		// 			subCategoryLink: '/terms'
-		// 		}
-		// 	]
-		// },
+		{
+			category: 'Product',
+			subCategories: [
+				{
+					subCategory: 'Home',
+					subCategoryLink: '/'
+				},
+				// {
+				// 	subCategory: 'Features',
+				// 	subCategoryLink: '/features'
+				// },
+				{
+					subCategory: 'FAQ',
+					subCategoryLink: '/faq'
+				},
+				// {
+				// 	subCategory: 'Pricing',
+				// 	subCategoryLink: '/pricing'
+				// },
+				// {
+				// 	subCategory: 'Changelog',
+				// 	subCategoryLink: '/changelog'
+				// },
+				// {
+				// 	subCategory: 'Terms',
+				// 	subCategoryLink: '/terms'
+				// }
+			]
+		},
 		// {
 		// 	category: 'About us',
 		// 	subCategories: [

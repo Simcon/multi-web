@@ -139,7 +139,7 @@
   },
   {
     "question": "What exactly is Multi Framework based on?",
-    "reply": "Multi Framework is built on .NET MAUI (Microsoft’s multi-platform app UI) and extended to support modern web technologies like HTML, CSS, and JavaScript, while still delivering native platform capabilities such as access to the camera, contacts, and storage. It includes cross-platform user registration and authentication boilerplate, follows Clean Architecture best practices, and provides multiple real-world code samples to help accelerate your app development.",
+    "reply": "Multi Framework is built on .NET MAUI (Microsoft’s multi-platform app UI) and extended to support web technologies like HTML, CSS, and JavaScript, while still delivering native platform capabilities such as access to the camera, contacts, and storage. It includes cross-platform user registration and authentication boilerplate, follows Clean Architecture, DDD and CQRS best practices, and provides multiple real-world code samples to help accelerate your app development.",
     "category": "multi_1",
     "open": false
   },
