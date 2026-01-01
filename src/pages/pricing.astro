@@ -14,14 +14,14 @@ import CTA from '../components/blocks/CTA/BasicDark.astro'
 // Content
 // - SEO
 const SEO = {
-	title: 'Foxi | Pricing made simple',
+	title: 'Multi Framework | Idea to App Store in Under an Hour',
 	description:
 		'Discover the perfect SaaS pricing plan for your business. From startups to enterprises, our scalable solutions offer unparalleled features and 24/7 support.'
 }
 // - Page Header
 const header = {
 	title: 'Choose the plan that works for <strong>your</strong> needs',
-	text: 'All plans come with a 30-day money-back guarantee.'
+	text: 'Start building today.'
 }
 // - Testimonial data
 import testimonialBackground from '../assets/testimonial-bg-02.webp'
@@ -36,15 +36,15 @@ const testimonialData = {
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<Price />
-	<SocialProof />
-	<Feature />
-	<Testimonial
+	<!-- <SocialProof /> -->
+	<!-- <Feature /> -->
+	<!-- <Testimonial
 		bg={testimonialBackground}
 		bgPosition="left"
 		blockquote={testimonialData.blockquote}
 		figcaption={testimonialData.figcaption}
 		cite={testimonialData.cite}
-	/>
-	<FAQ classes="bg-slate-50 dark:bg-neutral-900/40" />
-	<CTA />
+	/> -->
+	<!-- <FAQ classes="bg-slate-50 dark:bg-neutral-900/40" /> -->
+	<!-- <CTA /> -->
 </Layout>
