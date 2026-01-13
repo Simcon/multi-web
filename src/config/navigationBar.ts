@@ -41,17 +41,17 @@ export const navigationBarData: NavData = {
 		{ name: 'Home', link: '/' },
 		{ name: 'Pricing', link: '/pricing' },
 		{ name: 'Features', link: '/features' },
-		{ name: 'Faq', link: '/faq' },
-		// {
-		// 	name: 'Resources',
-		// 	link: '#',
-		// 	submenu: [
-		// 		{ name: 'Blog', link: '/blog' },
-		// 		{ name: 'Changelog', link: '/changelog' },
-		// 		{ name: 'FAQ', link: '/faq' },
-		// 		{ name: 'Terms', link: '/terms' }
-		// 	]
-		// },
+		{
+			name: 'Resources',
+			link: '#',
+			submenu: [
+				// { name: 'Blog', link: '/blog' },
+				//{ name: 'Changelog', link: '/changelog' },
+				{ name: 'Demo app', link: '/demo' },
+				{ name: 'FAQ', link: '/faq' },
+				//{ name: 'Terms', link: '/terms' }
+			]
+		},
 	],
 	navActions: [
 		{ name: '50% early-access discount', link: 'https://tally.so/r/Gx6VYz', style: 'primary', size: 'lg' }
