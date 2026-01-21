@@ -74,23 +74,23 @@ export const footerNavigationData: FooterData = {
 				// }
 			]
 		},
-		// {
-		// 	category: 'About us',
-		// 	subCategories: [
-		// 		{
-		// 			subCategory: 'About us',
-		// 			subCategoryLink: '/'
-		// 		},
-		// 		{
-		// 			subCategory: 'News',
-		// 			subCategoryLink: '/blog'
-		// 		},
-		// 		{
-		// 			subCategory: 'Careers',
-		// 			subCategoryLink: '/blog'
-		// 		}
-		// 	]
-		// },
+		{
+			category: 'Resources',
+			subCategories: [
+				{
+					subCategory: 'Demo app',
+					subCategoryLink: '/demo'
+				},
+				{
+					subCategory: 'Blog',
+					subCategoryLink: '/blog'
+				},
+				{
+					subCategory: 'FAQ',
+					subCategoryLink: '/faq'
+				}
+			]
+		},
 		// {
 		// 	category: 'Get in touch',
 		// 	subCategories: [
