@@ -1,5 +1,6 @@
 [
 	{
+		"active": false,
 		"header": {
 			"title": "Free",
 			"subtitle": "Ideal for learning about Multi.",
@@ -24,11 +25,12 @@
 		"type": "basic"
 	},
 	{
+		"active": true,
 		"header": {
 			"title": "Core",
-			"subtitle": "Ideal for individual developers.",
+			"subtitle": "Ideal for individual developers and teams.",
 			"currency": "$",
-			"price": "20",
+			"price": "49",
 			"priceLabel": "month, billed anually",
 			"priceMontly": "240",
 			"priceLabelMontly": "month",
@@ -44,7 +46,7 @@
 				{ "listItem": "Clean Architecture." },
 				{ "listItem": "Domain Driven Development." },
 				{ "listItem": "CQRS." },
-				{ "listItem": "Full 'Wishlist' demo app (separate solution)." },
+				{ "listItem": "Full 'Todo List' demo app." },
 				{ "listItem": "Documentation, videos and tutorials." }
 			]
 		},
@@ -55,6 +57,7 @@
 		"type": "featured"
 	},
 	{
+	"active": false,
 		"header": {
 			"title": "Pro",
 			"subtitle": "Ideal for accelerated app development.",

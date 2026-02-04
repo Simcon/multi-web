@@ -39,6 +39,7 @@ type PricingTableData = {
 		buttonLink: string
 	}
 	type: 'basic' | 'featured'
+	active?: boolean
 }
 
 const pricingData: PricingTableData[] = pricingTablesData as PricingTableData[]
@@ -57,11 +58,13 @@ const pricingData: PricingTableData[] = pricingTablesData as PricingTableData[]
 			>
 		</Col> -->
 		{
-			pricingData.map((item, key) => (
-				<Col span="4">
-					<PricingTable data={item} listType="checklist" id={`plan-${key}`} />
-				</Col>
-			))
+			pricingData
+				.filter((item) => item.active !== false)
+				.map((item, key) => (
+					<Col span="12">
+						<PricingTable data={item} listType="checklist" id={`plan-${key}`} />
+					</Col>
+				))
 		}
 	</Row>
 </Section>
