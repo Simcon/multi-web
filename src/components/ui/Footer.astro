@@ -28,11 +28,30 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 					<p>
 						{footerAbout.aboutText}
 					</p>
-					<p>
-						<a href="https://launchigniter.com/product/multi-framework?ref=badge-multi-framework" target="_blank">
-  						<img src="https://launchigniter.com/api/badge/multi-framework?theme=neutral" alt="Featured on LaunchIgniter" width="212" height="55" />
-						</a>
-					</p>
+					<div style="width: 100%; overflow: auto;">
+						<div style="float: left; width: 49%;">
+							<a
+								href="https://launchigniter.com/product/multi-framework?ref=badge-multi-framework"
+								target="_blank"
+							>
+								<img
+									src="https://launchigniter.com/api/badge/multi-framework?theme=neutral"
+									alt="Featured on LaunchIgniter"
+									width="212"
+									height="55"
+								/>
+							</a>
+						</div>
+						<div style="float: right; width: 49%;">
+							<a href="https://www.techtrendin.com/products/multi-framework" target="_blank">
+								<img
+									src="https://www.techtrendin.com/badges/featured-light.png"
+									alt="Featured on TechTrendin'"
+									style="width: auto; height: 52px;"
+								/>
+							</a>
+						</div>
+					</div>
 				</div>
 				{
 					footerColumns.map((column) => (
