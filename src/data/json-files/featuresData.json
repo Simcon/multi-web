@@ -242,13 +242,19 @@
 	{
 		"title": "Desktop Apps",
 		"icon": "rocket",
-		"description": "Package and ship native-style desktop apps for Windows and macOS using the same underlying architecture.",
+		"description": "Package and ship native desktop apps for Windows and macOS using the same underlying architecture.",
 		"category": "Multi1"
 	},
 	{
-		"title": "Web First",
+		"title": "Web Apps",
 		"icon": "rocket",
-		"description": "The web is treated as a first-class platform, not a reduced or secondary output, so your app works great in the browser from day one.",
+		"description": "Ship your app to the web and let anyone access it instantly, from any device.",
+		"category": "Multi1"
+	},
+	{
+		"title": "Browser extentions",
+		"icon": "rocket",
+		"description": "Launch a browser extension to bring your app into the user’s workflow, one click away.",
 		"category": "Multi1"
 	},
 	{

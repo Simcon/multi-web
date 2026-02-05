@@ -121,7 +121,7 @@
   },
   {
     "question": "What platforms does Multi Framework support?",
-    "reply": "Out of the box, you can target Web, iOS, Android, macOS, and Windows.",
+    "reply": "Out of the box, you can target Web, iOS, Android, macOS, Windows and Browser extensions.",
     "category": "multi_1",
     "open": false
   },
@@ -133,7 +133,7 @@
   },
   {
     "question": "I already use React Native or Flutter. Is Multi Framework a good fit for me?",
-    "reply": "Maybe. React, Vue, and Flutter are excellent tools, and you may be best off sticking with them. Multi Framework is ideal if you want a single codebase for all platforms plus an end-to-end automated deployment pipeline to speed up development and publishing.",
+    "reply": "Maybe. React, Vue, and Flutter are excellent tools, and you may be best off sticking with them, but they require a certain amount of learning including maybe a new programming language. Multi Framework is ideal if you want a single codebase based on web tech (HTML, Javascript, CSS etc.) for all platforms backed by C# and .NET, plus an end-to-end automated deployment pipeline to speed up development and publishing.",
     "category": "multi_1",
     "open": false
   },

@@ -38,17 +38,17 @@ export const navigationBarData: NavData = {
 		text: 'Multi Framework'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
 		{ name: 'Features', link: '/features' },
+		{ name: 'Pricing', link: '/pricing' },
 		{
 			name: 'Resources',
 			link: '#',
 			submenu: [
 				//{ name: 'Changelog', link: '/changelog' },
-				{ name: 'Demo app', link: '/demo' },
+				{ name: 'Home', link: '/' },
 				{ name: 'Blog', link: '/blog' },
 				{ name: 'FAQ', link: '/faq' },
+				{ name: 'Demo app', link: '/demo' },
 				//{ name: 'Terms', link: '/terms' }
 			]
 		},
